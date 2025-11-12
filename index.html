@@ -5,6 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lordyan — Official Website</title>
 
+<!-- ===== BASIC META ===== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- ===== THEME COLOR (Browser chrome on mobile) ===== -->
+  <meta name="theme-color" content="#9DD152">
+
+  <!-- ===== SEO CORE ===== -->
+  <title>Lordyan Official Website</title>
+  <meta name="description" content="I need a description to put here plz." />
+  
+  <!-- ===== CANONICAL URL (prevent duplicate content) ===== -->
+  <link rel="canonical" href="https://lordyan.com/" />
+  
+  <!-- ===== OPEN GRAPH (Facebook, LinkedIn, etc.) ===== -->
+  <meta property="og:title" content="Lordyan Official Website" />
+  <meta property="og:description" content="I need a description to put here plz." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yoursite.com/current-page" />
+  <meta property="og:image" content="https://lordyan.com/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="Lordyan" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- ===== TWITTER CARDS ===== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lordyan Official Website" />
+  <meta name="twitter:description" content="I need a description to put here plz." />
+  <meta name="twitter:image" content="https://yoursite.com/assets/og-image.jpg" />
+  <meta name="twitter:site" content="@lordyanyu" />
+
+  <!-- ===== FAVICONS ===== -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- ===== STRUCTURED DATA (JSON-LD) ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Lordyan Official Website",
+    "description": "I need a description to put here plz.",
+    "url": "https://lordyan.com/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Lordyan",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://lordyan.com/logo.png"
+      }
+    }
+  }
+  </script>
+
   <!-- Fonts -->
   <style>
     @font-face {
@@ -128,7 +185,7 @@
       text-align: center;
     }
 
-    /* HERO TITLES — ASTROGATOR ONLY */
+    /* HERO TITLES */
     h1 {
       font-family: 'Astrogator', sans-serif;
       font-size: 4.5rem;
